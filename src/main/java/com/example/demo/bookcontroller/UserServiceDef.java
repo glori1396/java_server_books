@@ -25,6 +25,7 @@ public class UserServiceDef implements UserService {
         return user;
     }
 
+    
     public ArrayList getUsers(){
         return (ArrayList) userDAO.findAll();
     }
